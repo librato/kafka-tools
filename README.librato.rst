@@ -10,4 +10,6 @@ lagging the master branch in github, and we need some of those
 features for our use, specifically rack-aware placement.
 
 The intended use of this is to tag this repo with the date
-(e.g. v20170705), and use that date tag to build from.
+(e.g. 20170705), and use that date tag to build from.
+
+Don't start the tag with a letter.  Dpkg/apt gets upset about that.
